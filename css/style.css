@@ -16,6 +16,9 @@ html{
 
 /* Home Section Starts From Here */
 
+
+/* Header Section Starts From Here */
+
 .home{
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -235,6 +238,16 @@ html{
     transform: translateX(calc(70px * 4));
 }
 
+/* Header Section Ends From Here */
+
+/* Home Main Starts From Here */
+
+.home .home-container .home-main{
+    color: red;
+}
+
+
+/* Home Main Ends From Here */
 
 /* Home Section Ends From Here */
 
@@ -268,6 +281,8 @@ html{
     html{
         font-size: 80%;
     }
+
+    /* Header Section Starts From Here */
 
     .home .home-container{
         width: 100%;
@@ -358,7 +373,12 @@ html{
         transform: translateX(calc(60px * 4));
     }
 
+    /* Header Section Ends From Here */
+
+
 }
+
+
 /* media queries Ends From Here  */
 
 
